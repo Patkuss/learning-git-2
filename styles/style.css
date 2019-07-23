@@ -1,0 +1,36 @@
+.body {
+    max-width: 1000px
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.splash {
+    text-align: center;
+}
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.ang-text, .pl-text {
+    flex: 50% 0 0;
+    justify-self: center;
+    text-align: center;
+}
+.text-title {
+    margin-left: 19px;
+}
+.author {
+    margin-left: 35px;
+}
+.my-opinion img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+.page-footer {
+    text-align: right;
+    margin-top: 50px;
+}
