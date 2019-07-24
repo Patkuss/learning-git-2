@@ -1,0 +1,9 @@
+BrowserSync:
+node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
+ctrl+c
+
+autoprefixer-cli:
+autoprefixer-cli -o style.prefixed.css styles/style.css
+
+nu-html-checker:
+nu-html-checker -f "*.html"
